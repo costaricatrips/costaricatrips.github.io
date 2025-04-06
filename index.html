@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Rica Main Volcanoes</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        .volcano-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .volcano-card {
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .volcano-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 4px solid #2c5f2d;
+        }
+
+        .volcano-content {
+            padding: 25px;
+        }
+
+        .volcano-title {
+            color: #2c5f2d;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .active { background: #ffe8e8; color: #cc3300; }
+        .dormant { background: #e8f5e9; color: #2c5f2d; }
+
+        .volcano-facts {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .fact-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .fact-label {
+            font-weight: bold;
+            color: #666;
+        }
+
+        .visitor-tips {
+            background: #fff3e0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .volcano-container {
+                padding: 10px;
+            }
+            
+            .volcano-content {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="volcano-container">
+        <!-- Poás Volcano -->
+        <div class="volcano-card">
+            <img src="https://placeholder.com/800x400?text=Poás+Volcano" 
+                 alt="Poás Volcano crater view" 
+                 class="volcano-image">
+            <div class="volcano-content">
+                <h2 class="volcano-title">Poás Volcano</h2>
+                <div class="status-badge active">Currently Active</div>
+                
+                <div class="volcano-facts">
+                    <div class="fact-item">
+                        <span class="fact-label">Elevation:</span>
+                        <span>2,708 meters</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Last Eruption:</span>
+                        <span>2023</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Distance from SJ:</span>
+                        <span>1.5 hours</span>
+                    </div>
+                </div>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li>One of the largest active craters in the world</li>
+                    <li>Turquoise acidic lagoon (pH &lt; 1)</li>
+                    <li>Botts' Dots tactile road system</li>
+                </ul>
+
+                <div class="visitor-tips">
+                    <h3>Visitor Tips</h3>
+                    <ul>
+                        <li>Arrive before 10am for best visibility</li>
+                        <li>Mandatory gas masks provided</li>
+                        <li>UV protection essential</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arenal Volcano -->
+        <div class="volcano-card">
+            <img src="https://placeholder.com/800x400?text=Arenal+Volcano" 
+                 alt="Arenal Volcano landscape" 
+                 class="volcano-image">
+            <div class="volcano-content">
+                <h2 class="volcano-title">Arenal Volcano</h2>
+                <div class="status-badge dormant">Currently Dormant</div>
+                
+                <div class="volcano-facts">
+                    <div class="fact-item">
+                        <span class="fact-label">Elevation:</span>
+                        <span>1,633 meters</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Last Eruption:</span>
+                        <span>2010</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Hot Springs:</span>
+                        <span>12+ in area</span>
+                    </div>
+                </div>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Perfect conical shape</li>
+                    <li>Lava field hiking trails</li>
+                    <li>Natural hot springs</li>
+                </ul>
+
+                <div class="visitor-tips">
+                    <h3>Visitor Tips</h3>
+                    <ul>
+                        <li>Night tours available</li>
+                        <li>Combine with Lake Arenal visit</li>
+                        <li>Waterproof gear recommended</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Irazú Volcano -->
+        <div class="volcano-card">
+            <img src="https://placeholder.com/800x400?text=Irazú+Volcano" 
+                 alt="Irazú Volcano lunar landscape" 
+                 class="volcano-image">
+            <div class="volcano-content">
+                <h2 class="volcano-title">Irazú Volcano</h2>
+                <div class="status-badge dormant">Dormant</div>
+                
+                <div class="volcano-facts">
+                    <div class="fact-item">
+                        <span class="fact-label">Elevation:</span>
+                        <span>3,432 meters (Highest)</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Last Eruption:</span>
+                        <span>1994</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Unique Feature:</span>
+                        <span>Dual ocean views</span>
+                    </div>
+                </div>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Lunar-like landscape with ash fields</li>
+                    <li>Diego de la Haya crater lake</li>
+                    <li>Historic 1963 eruption during JFK visit</li>
+                </ul>
+
+                <div class="visitor-tips">
+                    <h3>Visitor Tips</h3>
+                    <ul>
+                        <li>Bring warm layers (0-10°C at summit)</li>
+                        <li>Morning visits for clear views</li>
+                        <li>Combine with Cartago city tour</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Turrialba Volcano -->
+        <div class="volcano-card">
+            <img src="https://placeholder.com/800x400?text=Turrialba+Volcano" 
+                 alt="Turrialba Volcano eruption" 
+                 class="volcano-image">
+            <div class="volcano-content">
+                <h2 class="volcano-title">Turrialba Volcano</h2>
+                <div class="status-badge active">Active</div>
+                
+                <div class="volcano-facts">
+                    <div class="fact-item">
+                        <span class="fact-label">Elevation:</span>
+                        <span>3,340 meters</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Activity:</span>
+                        <span>Continuous since 2014</span>
+                    </div>
+                    <div class="fact-item">
+                        <span class="fact-label">Notable:</span>
+                        <span>2km exclusion zone</span>
+                    </div>
+                </div>
+
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Spectacular gas and ash plumes</li>
+                    <li>Three active craters</li>
+                    <li>Adjacent to Guayabo archaeological site</li>
+                </ul>
+
+                <div class="visitor-tips">
+                    <h3>Visitor Tips</h3>
+                    <ul>
+                        <li>Check official status before visiting</li>
+                        <li>Guided tours only</li>
+                        <li>Combine with Pacuare River rafting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
