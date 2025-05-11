@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+            .map-responsive {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio */
+        }
+        
+        /* Make iframe fill the container */
+        .map-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    <h1>Costa Rica Hihglights </h1>
+    <div class="map-responsive"></div>
+        <iframe 
+            src="https://www.google.com/maps/d/edit?mid=1S6IO_ZWglcRrR4-VIYug4BPFGgn4luA&ll=9.885628679873783%2C-84.05397775159241&z=9" 
+            allowfullscreen="" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+
 <section class="attractions">
     <div class="container">
         <!-- Sabana Park -->
